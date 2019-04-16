@@ -1,12 +1,20 @@
 import React from "react";
+<<<<<<< HEAD
 import { Card } from "./card.jsx";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Footer } from "./footer.jsx";
+=======
+import { Navbar } from "./navbar.jsx";
+//include images into your bundle
+import rigoImage from "../../img/rigo-baby.jpg";
+import { Jumbotron } from "./jumbotron.jsx";
+>>>>>>> b04f4f03f20daf0ecac9006d3fe416dcb1fb82d9
 //create your first component
 export class Home extends React.Component {
 	render() {
 		return (
+<<<<<<< HEAD
 			<div className="text-center">
 				<h1>Hello Rigo!</h1>
 				<p>
@@ -34,6 +42,11 @@ export class Home extends React.Component {
 						<Card />
 					</div>
 				</div>
+=======
+			<div className="text">
+				<Navbar />
+				<Jumbotron />
+>>>>>>> b04f4f03f20daf0ecac9006d3fe416dcb1fb82d9
 			</div>
 		);
 	}
